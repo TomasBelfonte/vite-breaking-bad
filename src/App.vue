@@ -1,14 +1,12 @@
-<template>
-  <div>
-    <TheMain></TheMain>
-  </div>
+<template>  
+  <TheCharList></TheCharList>  
 </template>
 
 <script>
-  import TheMain from './components/TheMain.vue';
-
+  import TheCharList from './components/TheCharList.vue';
+  import TheSingleChar from './components/TheSingleChar.vue';
   export default {
-    components: {TheMain}
+    components: {TheCharList, TheSingleChar}
   }
 </script>
 
